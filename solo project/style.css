@@ -9,12 +9,12 @@ DARK BLUE: #1D3557
 */
 /*  after walk. each section has it's own border/width/background readjust each. */
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0px auto;    
     text-align: center;
-    color: #96c5f1;
-    
-    
+    color: #75b7f5;
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 0 0 4px #131c27;
+    /*text shadow temp until font*/       
 }
 .top{
     background-image: url("/solo project/images/NP-scape.jpg");
@@ -22,13 +22,14 @@ body {
     /* align-content: center; */ 
     width:715px;
     height:400px;
-    margin: 0px auto;
-    padding: 0px; 
-    
-    
+    margin: 0 auto; 
+}
+
+.first-text{
+    margin: 0px;
 }
 h1{
-    width: 300px;
+    width: 375px;
     height: 42px;
     
     background-color: #457B9D;
@@ -40,14 +41,14 @@ h2{
     width: 450px;
     height: 42px;
     background-color: #1D3557;
-    margin:  0px auto;
+    margin:  10px auto;
     padding-top: 10px;
 }
 .box-1 {
     border: opx solid #F1FAEE;
     border-width: 1px;
     border-radius: 25px;
-    margin-top:10px;
+    /*margin-top:10px;*/
     background-size: cover;
     text-align: contain;
     
