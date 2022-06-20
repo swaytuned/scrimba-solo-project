@@ -1,0 +1,127 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+/*  after walk. each section has it's own border/width/background readjust each. */
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: #96c5f1;
+    text-shadow: 0px 0px 4px black;
+    
+}
+.top{
+    background-image: url("/solo project/images/NP-scape.jpg");
+    background-size: cover;
+    /* align-content: center; */ 
+    width:720px;
+    height:400px;
+    margin: 0px auto;
+    padding: 0px; 
+    
+    
+}
+h1{
+    width: 300px;
+    height: 42px;
+    
+    background-color: #457B9D;
+    margin: 0px auto;
+    margin-bottom: 110px;
+    
+}
+h2{
+    width: 450px;
+    height: 42px;
+    background-color: #1D3557;
+    margin:  0px auto;
+    padding-top: 10px;
+}
+.box-1 {
+    border: opx solid #F1FAEE;
+    border-width: 1px;
+    border-radius: 25px;
+    margin-top:10px;
+    background-size: cover;
+    text-align: contain;
+    
+}
+.box-2 {
+    border: opx solid #F1FAEE;
+    border-width: 1px;
+    border-radius: 25px;
+    
+    background-size: cover;
+    text-align: contain;
+    
+}
+/* middle*/
+.middle{
+    background-color: #a6bb9f;
+    width: 715px;  
+    height: 400px;
+    margin: 0 auto;
+}
+h3{
+    margin-top: 0px;
+    padding-top: 25px;
+    font-size: 26px;
+}
+.flex-container  {
+    border: 0px solid white;
+    height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    align-items: center;
+    
+    padding: 35px 45px 45px 70px ;  
+}
+.img-1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("/solo project/images/Amgen-Headquarters.jpg");
+    background-size: cover;
+    text-align: center;
+    margin: 20px 70px 10px;
+}
+.img-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("/solo project/images/newbury_20park.jpg");
+    background-size: cover;
+    text-align: center;
+    margin: 20px;
+}
+.img-3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url("/solo project/images/Stagecoach-museum.jpg");
+    background-size:cover;
+    text-align: center;
+    margin: 20px;
+}
+
+/*bottom*/
+.bottom{
+    background-color: #e4f7de;
+    /*background-size:700px 400px;*/
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    
+}
+img {
+    width: 100px;
+    background-image: url("/solo project/images/Amgen-Headquarters.jpg");
+    
+}
