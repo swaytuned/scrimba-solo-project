@@ -13,14 +13,14 @@ body {
     padding: 0px;
     text-align: center;
     color: #96c5f1;
-    text-shadow: 0px 0px 4px black;
+    
     
 }
 .top{
     background-image: url("/solo project/images/NP-scape.jpg");
     background-size: cover;
     /* align-content: center; */ 
-    width:720px;
+    width:715px;
     height:400px;
     margin: 0px auto;
     padding: 0px; 
