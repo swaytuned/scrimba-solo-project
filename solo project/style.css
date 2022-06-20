@@ -115,12 +115,13 @@ h3{
 .bottom{
     background-color: #e4f7de;
     /*background-size:700px 400px;*/
-    width: 400px;
+    width: 715px;
     height: 400px;
     margin: 0 auto;
     justify-content: center;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
     border-bottom: 6px solid #f5e619;
-    border-radius: 12px;
     color: rgb(20, 20, 20);
     text-shadow: 0px 0px 8px #f5e619;
 
