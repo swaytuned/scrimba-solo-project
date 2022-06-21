@@ -13,7 +13,7 @@ body {
     text-align: center;
     color: #e5eee7;
     font-family: 'Abril Fatface', cursive;
-    text-shadow: 0 0 4px #260f26;
+    /*text-shadow: 0 0 4px #260f26;*/
     /*text shadow temp until font*/       
 }
 .top{
@@ -32,9 +32,9 @@ h1{
     width: 375px;
     height: 42px;
     padding-bottom: 5px;
+    padding-top: 5px;
     background-color: #404e7c;
-    margin: 0px auto;
-    margin-bottom: 110px;
+    
     
 }
 h2{
