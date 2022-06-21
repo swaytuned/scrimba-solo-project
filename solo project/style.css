@@ -145,16 +145,19 @@ img {
 .img-1:hover{
     background-image:url(images/amgen-2.jpg);
     width: 100px;
+    height: 100px;
     border-radius: 50%;
 } 
 .img-2:hover{
     background-image:url(images/works-2.jpg);
     width: 100px;
+    height: 100px;
     border-radius: 50%;
 } 
 .img-3:hover{
     background-image:url(images/stagecoach-2.jpg);
     width: 100px;
+    height: 100px;
     border-radius: 50%;
 } 
 .bottom:hover{
