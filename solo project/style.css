@@ -17,38 +17,43 @@ body {
     /*text shadow temp until font*/       
 }
 .top{
+    
+}
+.bg-img{
     background-image: url("/solo project/images/NP-scape.jpg");
     background-size: cover;
     /* align-content: center; */ 
     width:715px;
     height:400px;
-    margin: 0 auto; 
+    margin: 0px auto;
 }
-
+/*
 .first-text{
     margin: 0px;
-}
+    text-align: center;
+}*/
 h1{
     width: 375px;
     height: 42px;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: #404e7c;
-    
+    margin: 30px auto;
+    margin-top: 10px;
     
 }
 h2{
     width: 450px;
     height: 42px;
     background-color: #251f47;
-    margin:  10px auto;
+    margin:  0px auto;
     padding-top: 10px;
 }
 .box-1 {
-    border: opx solid #F1FAEE;
+    border: 0px solid #F1FAEE;
     border-width: 1px;
     border-radius: 25px;
-   /*margin-top:10px;*/
+    margin-top: 0px;
     background-size: cover;
     text-align: contain;
     
@@ -56,10 +61,9 @@ h2{
 .box-2 {
     border: opx solid #F1FAEE;
     border-width: 1px;
-    border-radius: 25px;
-    
+    border-radius: 25px;    
     background-size: cover;
-    text-align: contain;
+    /*text-align: contain;*/
     
 }
 
