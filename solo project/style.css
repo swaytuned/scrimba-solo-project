@@ -11,9 +11,9 @@ DARK BLUE: #1D3557
 body {
     margin: 0px auto;    
     text-align: center;
-    color: #75b7f5;
+    color: #e5eee7;
     font-family: 'Abril Fatface', cursive;
-    text-shadow: 0 0 4px #131c27;
+    text-shadow: 0 0 4px #260f26;
     /*text shadow temp until font*/       
 }
 .top{
@@ -31,8 +31,8 @@ body {
 h1{
     width: 375px;
     height: 42px;
-    
-    background-color: #457B9D;
+    padding-bottom: 5px;
+    background-color: #404e7c;
     margin: 0px auto;
     margin-bottom: 110px;
     
@@ -40,7 +40,7 @@ h1{
 h2{
     width: 450px;
     height: 42px;
-    background-color: #1D3557;
+    background-color: #251f47;
     margin:  10px auto;
     padding-top: 10px;
 }
@@ -48,7 +48,7 @@ h2{
     border: opx solid #F1FAEE;
     border-width: 1px;
     border-radius: 25px;
-    /*margin-top:10px;*/
+   /*margin-top:10px;*/
     background-size: cover;
     text-align: contain;
     
@@ -62,12 +62,14 @@ h2{
     text-align: contain;
     
 }
+
 /* middle*/
 .middle{
-    background-color: #a6bb9f;
+    background-color: #F1FAEE;
     width: 715px;  
     height: 400px;
     margin: 0 auto;
+    color: #251f47;
 }
 h3{
     margin-top: 0px;
@@ -97,7 +99,7 @@ h3{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-image: url("/solo project/images/newbury_20park.jpg");
+    background-image: url("/solo project/images/1553690225625.jpg");
     background-size: cover;
     text-align: center;
     margin: 20px;
@@ -114,7 +116,7 @@ h3{
 
 /*bottom*/
 .bottom{
-    background-color: #e4f7de;
+    background-color: #FFFFFF;
     /*background-size:700px 400px;*/
     width: 715px;
     height: 400px;
