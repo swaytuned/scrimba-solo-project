@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">   <!--main container-->
+            <div>
+                <div><!--Left side-->
+                    <h3>HOME</h3> 
+                    <div class="blackBox">
+                        <p id="score-home">0</p>  
+                    </div>              
+                </div>
+                <div class="button-color">
+                    <button onclick="homePlusOne()">+1</button>
+                    <button onclick="homePlusTwo()">+2</button>
+                    <button onclick="homePlusThree()">+3</button>
+                </div> 
+                <div>
+                    <div class="foulContainer">
+                    <div class="foulBox">
+                        <button class="foulCount" onclick="foulsHome()">Fouls</button>
+                        <p id="fouls-home">4</p>  
+                    </div> 
+                    </div>
+                </div>
+            </div>  <!--left side end-->
+            <div > <!--middle-->
+                <div class="resetLocation">
+                <button onclick="reset()">reset</button>
+                </div>
+            </div> <!--middle end-->
+                <div>
+                    <div> <!--right side-->
+                        <h3>GUEST</h3>
+                        <div class="blackBox">
+                        <p id="score-guest">0</p>
+                    </div>  
+                    <div class="button-color">
+                        <button onclick="guestPlusOne()">+1</button>
+                        <button onclick="guestPlusTwo()">+2</button>
+                        <button onclick="guestPlusThree()">+3</button>
+                </div> 
+                    <div class="foulContainer">
+                        <div class="foulBox">                         
+                            <button class="foulCount" onclick="foulsGuest()">Fouls</button>
+                            <p id="fouls-guest"> 4 </p>
+                        </div>
+                    </div><!--right side end-->
+            </div>
+        </div>     <!--main container end-->
+        <script src="index.js"></script>
+    </body>
+</html>
